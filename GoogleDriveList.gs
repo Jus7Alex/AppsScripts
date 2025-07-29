@@ -1,5 +1,6 @@
 // Running this function will require authorisation from a Google account.
 // Running this code will list all items from the Google account that authorised it.
+// Dependencies : Drive service V3 enabled
 
 
 function listRootFolders() {
