@@ -1,4 +1,4 @@
-// Running this functions will require authosation from a Google account.
+// Running this function will require authosation from a Google account.
 // This function will return the next events from the Google account Calendar that authorised it.
 
 function listNext10Events() {
