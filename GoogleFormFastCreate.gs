@@ -31,12 +31,12 @@ function MyForm() {
 }
  
 function mySubmit(e) {
- GmailApp.sendEmail('alexandru.lipan88.com', 'Raspunsuri', 'test body', {attachments: [e.source]});
+ GmailApp.sendEmail('your_email', 'Name of the file with answers', 'test body', {attachments: [e.source]});
 }
 
 /*
 var file = DriveApp.getFilesByName('AnswerS');
-GmailApp.sendEmail('alexandru.lipan88@gmail.com', 'Attachment example', 'Please see the attached file.', {
+GmailApp.sendEmail('your_email', 'Attachment example', 'Please see the attached file.', {
     attachments: [file.getAs(MimeType.XLSX)],
     name: 'Automatic Emailer Script'
 });
@@ -44,5 +44,6 @@ GmailApp.sendEmail('alexandru.lipan88@gmail.com', 'Attachment example', 'Please 
 
 var file = DriveApp.getFilesByName('Raspunsuri');
   Logger.log("Name of file is " + file.getName());
-  GmailApp.sendEmail('alexandru.lipan88@gmail.com', 'Demo Issue', 'Demo Issue', {attachments: [file.getAs(MimeType.XLSX)]});
+  GmailApp.sendEmail('your_email', 'Demo Issue', 'Demo Issue', {attachments: [file.getAs(MimeType.XLSX)]});
 */
+
